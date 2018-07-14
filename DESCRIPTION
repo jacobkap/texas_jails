@@ -1,0 +1,20 @@
+Package: texasjails
+Type: Package
+Title: Texas Jails
+Version: 1.0.0 
+Authors@R: person("Jacob", "Kaplan", email = "jkkaplan6@gmail.com", role = c("aut", "cre"))
+Description: Grabs and cleans data about Texas jail inmates 
+Depends:
+    R (>= 3.1.0)
+Imports:
+    readr,
+    stringr,
+License: GPL
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/jacobkap/texas_jails
+BugReports: https://github.com/jacobkap/texas_jails/issues
+Suggests: 
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
